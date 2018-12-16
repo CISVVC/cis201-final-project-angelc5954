@@ -1,4 +1,3 @@
-#include<iostream>
 #include "concordance.h"
 
 int main()

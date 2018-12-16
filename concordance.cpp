@@ -97,5 +97,8 @@ int Concordance::find_word(std::string word)
 
 void Concordance::print()
 {
-    // print out the concordance
+    for(int = 0; i < m_word_stats.size(); i++)
+    {
+        std::cout << m_word_stats[i] << std::endl; 
+    }// print out the concordance
 }

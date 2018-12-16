@@ -13,6 +13,7 @@ class Concordance
     private:
         std::vector<Word> m_word_stats;
         std::string m_filename;
+        int m_line;
     public:
         Concordance(std::string filename);
         void parse();
